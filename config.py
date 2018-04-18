@@ -103,8 +103,8 @@ DB_CONFIG = {
 
     'DB_CONNECT_TYPE': 'sqlalchemy',  # 'pymongo'sqlalchemy;redis
     # 'DB_CONNECT_STRING':'mongodb://localhost:27017/'
-    'DB_CONNECT_STRING': 'sqlite:///' + os.path.dirname(__file__) + '/data/proxy.db'
-    # DB_CONNECT_STRING : 'mysql+mysqldb://root:root@localhost/proxy?charset=utf8'
+    #'DB_CONNECT_STRING': 'sqlite:///' + os.path.dirname(__file__) + '/data/proxy.db'
+    'DB_CONNECT_STRING' : 'mysql+pymysql://ip_pool:T$vUB8v6FdiRRC@127.0.0.1:4040/ip?charset=utf8mb4'
 
     # 'DB_CONNECT_TYPE': 'redis',  # 'pymongo'sqlalchemy;redis
     # 'DB_CONNECT_STRING': 'redis://localhost:6379/8',
