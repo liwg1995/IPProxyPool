@@ -86,7 +86,7 @@ try:
 except Exception,e:
     raise Con_DB_Fail
 ```
-
+> Postgresql实现了添加数据表，但是插入数据报错，解决中... ...
 
 ## 如何使用
 
